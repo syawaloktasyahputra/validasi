@@ -2,7 +2,6 @@
 node_modules/
 
 # Database file
-database.json
 
 # Logs
 *.log
