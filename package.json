@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node api/server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon api/server.js"
   },
   "keywords": [
     "crud",
