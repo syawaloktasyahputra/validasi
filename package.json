@@ -1,0 +1,30 @@
+{
+  "name": "crud-json-api",
+  "version": "1.0.0",
+  "description": "Simple CRUD API using JSON file as database",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "crud",
+    "json",
+    "api",
+    "nodejs",
+    "express"
+  ],
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "mongoose": "^8.19.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
