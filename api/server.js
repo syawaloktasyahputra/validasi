@@ -25,8 +25,8 @@ if (!MONGO_URI) {
     .catch((err) => console.error("❌ MongoDB connection error:", err));
 }
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`🚀 Local server running on http://localhost:${PORT}`));
+//const PORT = process.env.PORT || 3000;
+//app.listen(PORT, () => console.log(`🚀 Local server running on http://localhost:${PORT}`));
 
 // Schema
 const accountSchema = new mongoose.Schema({
